@@ -1,12 +1,18 @@
-# Replicate Hello World with Cog
+# **Replicate Hello World with Cog** 🌍
 
-Welcome to the `replicate-hello-world` project! This is a simple "Hello World" machine learning model designed to help you get started with [Cog](https://github.com/replicate/cog) and [Replicate](https://replicate.com/).
+Welcome to the `replicate-hello-world` project! This is a simple "Hello World" function designed to help me get started with [Cog](https://github.com/replicate/cog) and [Replicate](https://replicate.com/).
 
-## Project Overview
+If you're also new to [Cog](https://github.com/replicate/cog) and [Replicate](https://replicate.com/) you should check out the [code](https://github.com/zsxkib/replicate-hello-world)!
 
-This project contains a Python script that defines a greeting predictor. The predictor is a simple model that takes a name as input and returns a greeting message.
+## Project Overview 🔮
 
-### Predictor Class Overview
+This project contains a Python script that defines a greeting predictor. The predictor is a simple function that takes a name as input and returns a greeting message.
+
+If you'd like details on how to push your own HelloWorld model, read on! ⚙️<br>
+Otherwise, just type in a `"name"` into the [Replicate instance!](https://replicate.com/zsxkib/hello-world) 🖍️
+___
+
+### Predictor Class Overview 🚀
 
 The `Predictor` class in our script extends the `BasePredictor` class from the Cog library. It consists of two main methods:
 
@@ -17,17 +23,13 @@ The `Predictor` class in our script extends the `BasePredictor` class from the C
 Here's a simple example of how to use the `Predictor`:
 
 ```python
-p = Predictor()
-print(p.predict("Sakib"))
-```
+> p = Predictor()
+> print(p.predict("Sakib"))
 
-This will output:
-
-```
 Hello, Sakib!
 ```
 
-## Running the Model Locally
+## Running the Model Locally 🏡
 
 To run the model locally, you will first need to build it using Cog. You can do this by running the following command in your terminal:
 
